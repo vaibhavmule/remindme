@@ -1,0 +1,47 @@
+<!DOCTYPE HTML>
+
+<html>
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<link rel="stylesheet" type="text/css" href="./css/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="./css/styles.css">
+	<title>remindme</title>
+</head>
+
+<body>
+
+	<header>
+		<nav>
+		</nav>
+	</header>
+	
+	<section>
+		<div class="container">
+		  <div class="row">
+		    <div class="col-md-6 col-md-offset-3">
+		    	<h1>remindme</h1>
+		        <hr>
+			    <form class="form-horizontal" role="form" method="GET">
+	  				<div class="form-group">
+	    				<label for="text">Add a reminder</label>
+	    			    <input type="text" class="form-control input-text" id="text" placeholder="Enter reminder">
+	    			    <input type="date" class="form-control" id="date">
+	    			    <input type="time" class="form-control" id="time">
+	    			    <br>
+	    				<button type="submit" id="submitButton" class="btn btn-default">Submit</button>
+	    			</div>
+	    		</form>
+	            <hr>
+	            <ul id="list">
+
+	            </ul>
+	        </div>
+		  </div>
+		</div>
+	</section>
+<script type="text/javascript" src="js/lib/jquery.min.js"></script>
+<script type="text/javascript" src="js/remind.js"></script>
+</body>
+
+</html>
