@@ -7,3 +7,6 @@ h1 {
 button {
 	float: right;
 }
+input {
+	margin-top: 5px;
+}
