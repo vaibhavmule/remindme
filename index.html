@@ -24,12 +24,21 @@
 		        <hr>
 			    <form class="form-horizontal" role="form" method="GET">
 	  				<div class="form-group">
-	    				<label for="text">Add a reminder</label>
-	    			    <input type="text" class="form-control input-text" id="text" placeholder="Enter reminder">
-	    			    <input type="date" class="form-control" id="date">
-	    			    <input type="time" class="form-control" id="time">
-	    			    <br>
+	  					<div class="col-xs-12">
+	    					<label for="text">Add a reminder</label>
+	    			    	<input type="text" class="form-control input-text" id="text" placeholder="Enter reminder">
+	    			    </div>
+	    			    <div class="col-xs-6">
+	    			    	<label for="date">Date of reminder</label>
+	    			    	<input type="date" class="form-control date" id="date">
+	    			    </div>
+	    			    <div class="col-xs-6">
+	    			    	<label for="text">Time of reminder</label>
+	    			    	<input type="time" class="form-control time" id="time">
+	    			    </div>
+	    			    <div class="col-xs-12">
 	    				<button type="submit" id="submitButton" class="btn btn-default">Submit</button>
+	    				</div>
 	    			</div>
 	    		</form>
 	            <hr>

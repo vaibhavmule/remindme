@@ -11,7 +11,7 @@ function getAllReminders () {
 		var now = new Date();
 		var seconds = thatTime-now;
 		console.log(thatTime);
-		$('#list').append('<li>'+text+'</li>');
+		$('#list').append('<div class="color-swatches"><div class="color-swatch brand-primary"><li class="li">'+text+'</li></div></div><br>');
 		$('#text').val('');
 		setTimeout(function () {
 			// body...
@@ -31,7 +31,8 @@ function setReminder (e) {
 	var now = new Date();
 	var seconds = thatTime-now;
 	console.log(thatTime);
-	$('#list').append('<li>'+text+'</li>');
+	$('#list').append('<div class="color-swatches"><div class="color-swatch brand-primary"><li>'+text+'</li></div></div>');
+
 	$('#text').val('');
 	setTimeout(function () {
 		// body...
